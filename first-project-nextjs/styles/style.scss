@@ -1,0 +1,22 @@
+.container-user {
+  & .btn {
+    width: 200px;
+    background-color: coral;
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    &:hover {
+      transition: all 0.5s;
+      font-size: 20px;
+
+      background-color: cornflowerblue;
+    }
+  }
+
+  & .user-name {
+    color: cornflowerblue;
+  }
+}
